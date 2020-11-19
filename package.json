@@ -22,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/ionic-pwa-elements.git"
+    "url": "git+https://github.com/hdntecnologiabr/pwa-elements.git"
   },
   "author": "Ionic Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/ionic-pwa-elements"
+    "url": "https://github.com/hdntecnologiabr/pwa-elements"
   },
-  "homepage": "https://github.com/ionic-team/ionic-pwa-elements",
+  "homepage": "https://github.com/hdntecnologiabr/pwa-elements",
   "devDependencies": {
     "@stencil/core": "^1.8.11",
     "@types/jest": "24.0.25",
