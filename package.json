@@ -7,6 +7,9 @@
   "types": "dist/types/index.d.ts",
   "module": "dist/index.mjs",
   "collection": "dist/collection/collection-manifest.json",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "files": [
     "dist/",
     "loader/"
@@ -14,7 +17,7 @@
   "scripts": {
     "build": "stencil build",
     "start": "stencil build --dev --watch --serve",
-    "release": "np",
+    "release": "npm login --scope=@hdntecnologiabr --registry=https://npm.pkg.github.com && npm publish",
     "version": "npm run build"
   },
   "repository": {
